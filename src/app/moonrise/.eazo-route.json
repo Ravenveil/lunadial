@@ -1,0 +1,9 @@
+{
+  "route": "moonrise",
+  "name": "月升锁境",
+  "nav_type": "stack",
+  "parent": "",
+  "order_index": 5,
+  "icon": "sunrise",
+  "summary": "睡前月升全屏引导"
+}

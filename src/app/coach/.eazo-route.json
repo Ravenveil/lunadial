@@ -1,0 +1,8 @@
+{
+  "route": "coach",
+  "name": "教练",
+  "nav_type": "tab",
+  "order_index": 2,
+  "icon": "message-circle",
+  "summary": "AI 睡眠教练对话"
+}

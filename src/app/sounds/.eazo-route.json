@@ -1,0 +1,8 @@
+{
+  "route": "sounds",
+  "name": "音源",
+  "nav_type": "tab",
+  "order_index": 3,
+  "icon": "music",
+  "summary": "助眠音源库与上传"
+}

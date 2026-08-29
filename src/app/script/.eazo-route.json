@@ -1,0 +1,8 @@
+{
+  "route": "script",
+  "name": "剧本",
+  "nav_type": "tab",
+  "order_index": 1,
+  "icon": "sliders-horizontal",
+  "summary": "编排入睡剧本并下发设备"
+}

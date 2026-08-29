@@ -1,0 +1,190 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-heading: var(--font-heading);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-moon: var(--moon);
+  --color-silver: var(--silver);
+  --color-bronze: var(--bronze);
+  --color-day-sun: var(--day-sun);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+body {
+  font-family: var(--font-sans), "Inter", "Helvetica Neue", Arial, sans-serif;
+  touch-action: manipulation;
+}
+
+@media (max-width: 640px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
+/* 二十四桥明月夜 · 深蓝夜底 + 月白清辉 + 青铜点缀 */
+:root {
+  --moon: #f0ece0;
+  --silver: #9fb2c4;
+  --bronze: #c08858;
+  --ink: #070d18;
+  --day-sun: #e39a54;
+
+  --background: #0a1120;
+  --foreground: #f0ece0;
+  --card: rgba(10, 17, 32, 0.6);
+  --card-foreground: #f0ece0;
+  --popover: #0d1526;
+  --popover-foreground: #f0ece0;
+  --primary: #c08858;
+  --primary-foreground: #0a1120;
+  --secondary: rgba(159, 178, 196, 0.14);
+  --secondary-foreground: #f0ece0;
+  --muted: rgba(159, 178, 196, 0.1);
+  --muted-foreground: rgba(240, 236, 224, 0.68);
+  --accent: rgba(192, 136, 88, 0.18);
+  --accent-foreground: #f0ece0;
+  --destructive: oklch(0.62 0.2 25);
+  --border: rgba(159, 178, 196, 0.26);
+  --input: rgba(159, 178, 196, 0.24);
+  --ring: #c08858;
+  --chart-1: #c08858;
+  --chart-2: #9fb2c4;
+  --chart-3: #e39a54;
+  --chart-4: #f0ece0;
+  --chart-5: #6f8494;
+  --radius: 1.125rem;
+  --font-sans: var(--font-sans-sc), "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-heading: var(--font-serif-sc), "Noto Serif SC", "Songti SC", serif;
+  --font-mono: var(--font-jetbrains), "JetBrains Mono", ui-monospace, monospace;
+  --sidebar: #0a1120;
+  --sidebar-foreground: #f0ece0;
+  --sidebar-primary: #c08858;
+  --sidebar-primary-foreground: #0a1120;
+  --sidebar-accent: rgba(159, 178, 196, 0.14);
+  --sidebar-accent-foreground: #f0ece0;
+  --sidebar-border: rgba(159, 178, 196, 0.26);
+  --sidebar-ring: #c08858;
+
+  --eazo-safe-area-top: max(56px, env(safe-area-inset-top, 0px));
+  --eazo-safe-area-bottom: max(34px, env(safe-area-inset-bottom, 0px));
+  color-scheme: dark;
+}
+
+/* 日间纸底基调（供小结/剧本页按时段切换） */
+.day-ground {
+  --background: #edeae0;
+  --foreground: #22252c;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-foreground: #22252c;
+  --popover: #f5f2ea;
+  --popover-foreground: #22252c;
+  --primary: #96703c;
+  --primary-foreground: #f7f4ec;
+  --secondary: rgba(34, 37, 44, 0.06);
+  --secondary-foreground: #22252c;
+  --muted: rgba(34, 37, 44, 0.05);
+  --muted-foreground: rgba(34, 37, 44, 0.62);
+  --accent: rgba(150, 112, 60, 0.14);
+  --accent-foreground: #22252c;
+  --border: rgba(34, 37, 44, 0.14);
+  --input: rgba(34, 37, 44, 0.16);
+  --ring: #96703c;
+  --moon: #22252c;
+  --silver: #56707a;
+  color-scheme: light;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .font-heading { font-family: var(--font-heading); }
+  .tabular { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  /* 深夜蓝底叠月华径向光晕 */
+  .night-field {
+    background:
+      radial-gradient(120% 90% at 50% -10%, rgba(159, 178, 196, 0.22), transparent 55%),
+      radial-gradient(90% 60% at 50% 8%, rgba(192, 136, 88, 0.12), transparent 60%),
+      linear-gradient(180deg, #0c1526 0%, #0a1120 46%, #070d18 100%);
+  }
+  .moon-glow {
+    box-shadow:
+      0 0 32px rgba(240, 236, 224, 0.35),
+      0 0 90px rgba(159, 178, 196, 0.28);
+  }
+  .glass-panel {
+    background: var(--card);
+    backdrop-filter: blur(22px) saturate(1.15);
+    -webkit-backdrop-filter: blur(22px) saturate(1.15);
+    border: 1px solid var(--border);
+  }
+}
+
+@keyframes water-shimmer {
+  0%, 100% { opacity: 0.5; transform: translateX(0); }
+  50% { opacity: 0.85; transform: translateX(6px); }
+}
+@keyframes breathe {
+  0%, 100% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.14); opacity: 1; }
+}
+@keyframes moon-drift {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}

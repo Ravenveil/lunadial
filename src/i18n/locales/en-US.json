@@ -1,0 +1,172 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "loading": "Loading…",
+    "on": "On",
+    "off": "Off",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "userId": "User ID"
+  },
+  "language": {
+    "label": "Language",
+    "triggerLabel": "Language: {{language}}",
+    "followSystem": "System",
+    "followSystemWithLanguage": "System ({{language}})",
+    "enUS": "English",
+    "zhCN": "中文"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist or may have been moved.",
+      "backHome": "Back to home"
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. You can try again or return to the home page.",
+      "tryAgain": "Try again",
+      "backHome": "Back to home"
+    }
+  },
+  "starter": {
+    "badge": "Eazo App Starter",
+    "title": "Build your next app with Eazo",
+    "subtitle": "You now have a clean foundation with auth, data access, and platform integrations ready for your product.",
+    "steps": {
+      "readDocs": {
+        "title": "Read the docs",
+        "desc": "Open AGENTS.md and README.md to understand the template architecture.",
+        "code": "AGENTS.md + README.md"
+      },
+      "replacePage": {
+        "title": "Replace this page",
+        "desc": "Move your product UI into src/components and keep page.tsx thin.",
+        "code": "src/app/page.tsx"
+      },
+      "firstFeature": {
+        "title": "Build your first feature",
+        "desc": "Add API routes under src/app/api and call them from typed helpers.",
+        "code": "src/app/api/*"
+      },
+      "translations": {
+        "title": "Add translations",
+        "desc": "Edit en-US / zh-CN strings in src/i18n/locales. LanguageSwitcher and I18nProvider in layout.tsx are already wired.",
+        "code": "src/i18n/locales/"
+      }
+    },
+    "nextCommand": {
+      "title": "Next command",
+      "desc": "Start developing and iterate in real time.",
+      "command": "bun dev"
+    }
+  },
+  "nav": {
+    "summary": "Summary",
+    "script": "Script",
+    "coach": "Coach",
+    "sounds": "Sounds"
+  },
+  "summary": {
+    "title": "Morning Summary",
+    "lastNight": "Last Night",
+    "sleepLatency": "Time to sleep",
+    "minutes": "min",
+    "lightWindow": "Light-sleep window",
+    "hit": "Hit",
+    "missed": "Woke in active phase",
+    "moonAge": "Moon age",
+    "watchMotion": "Movement by watch",
+    "noiseEvents": "Noise events",
+    "environment": "Temp, humidity & light",
+    "temp": "Temp",
+    "humidity": "Humidity",
+    "lux": "Light",
+    "tonightTip": "Tonight's tip",
+    "noise": "Noise",
+    "motion": "Motion",
+    "tapHint": "Tap any hour to see its movement and environment",
+    "enterMoonrise": "Enter Moonrise"
+  },
+  "script": {
+    "title": "Sleep Script",
+    "sleepTime": "Bedtime",
+    "sunsetDuration": "Sunset length",
+    "alarmTime": "Alarm",
+    "sunriseLead": "Sunrise lead",
+    "moonPhaseCompanion": "Moon-phase companion",
+    "drumFifthWatch": "Fifth-watch soft drum",
+    "guide": "Wind-down guide",
+    "soundscape": "Soundscape",
+    "breathLight": "Breathing light",
+    "meditation": "Meditation voice",
+    "moon478": "Moonlight breath 4-7-8",
+    "volume": "Guide volume",
+    "fadeWithSunset": "Fade with sunset",
+    "save": "Save & send",
+    "saving": "Sending…",
+    "saved": "Sent to device",
+    "rain": "Rain",
+    "waves": "Waves",
+    "forest": "Forest",
+    "pinknoise": "Pink noise",
+    "meditationSound": "Meditation"
+  },
+  "coach": {
+    "title": "Sleep Coach",
+    "subtitle": "Read your last three nights",
+    "placeholder": "Ask your sleep coach…",
+    "send": "Send",
+    "thinking": "Thinking…",
+    "quick1": "How did I sleep last night?",
+    "quick2": "How should I adjust tonight?",
+    "quick3": "Why did I wake at the third watch?",
+    "greeting": "I've reviewed your last three nights. Want to talk about last night, or tonight's plan?"
+  },
+  "sounds": {
+    "title": "Sound Library",
+    "builtin": "Built-in sounds",
+    "custom": "Custom sounds",
+    "upload": "Upload audio",
+    "uploadHint": "mp3 / ogg, ≤ 10MB",
+    "play": "Play",
+    "stop": "Stop",
+    "duration": "Length",
+    "uploading": "Uploading…"
+  },
+  "pair": {
+    "title": "Connect Lunadial",
+    "subtitle": "Enter your bedside device address, test the link, then set up network and timezone.",
+    "address": "Device address",
+    "addressPlaceholder": "e.g. 192.168.1.20 or lunadial.local",
+    "test": "Test connection",
+    "testing": "Connecting…",
+    "connected": "Connected",
+    "failed": "Connection failed. Check address and network.",
+    "timezone": "Timezone",
+    "steps": "Setup guide",
+    "step1": "Make sure the device is powered and the base ring is breathing",
+    "step2": "Phone and device on the same Wi-Fi",
+    "step3": "Enter the address and test the connection",
+    "enter": "Enter Lunadial",
+    "reconnect": "Reconnect"
+  },
+  "moonrise": {
+    "title": "Moonrise",
+    "currentZhi": "{{zhi}} hour",
+    "untilSleep": "{{min}} min to sleep",
+    "breathStandby": "Moonlight breath 4-7-8 standby",
+    "breatheIn": "Inhale",
+    "hold": "Hold",
+    "breatheOut": "Exhale",
+    "lock": "Enter locked view",
+    "unlock": "Exit lock",
+    "back": "Back",
+    "locked": "Locked · Rest well"
+  }
+}

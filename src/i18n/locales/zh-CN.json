@@ -1,0 +1,140 @@
+{
+  "common": {
+    "signIn": "登录",
+    "signOut": "退出登录",
+    "loading": "加载中…",
+    "on": "开",
+    "off": "关",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "userId": "用户 ID"
+  },
+  "language": {
+    "label": "语言",
+    "triggerLabel": "语言：{{language}}",
+    "followSystem": "跟随系统",
+    "followSystemWithLanguage": "跟随系统（{{language}}）",
+    "enUS": "English",
+    "zhCN": "中文"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "页面未找到",
+      "description": "你访问的页面不存在，或已被移动。",
+      "backHome": "返回首页"
+    },
+    "generic": {
+      "title": "出了点问题",
+      "description": "发生了意外错误。你可以重试，或返回首页继续。",
+      "tryAgain": "重试",
+      "backHome": "返回首页"
+    }
+  },
+  "nav": {
+    "summary": "小结",
+    "script": "剧本",
+    "coach": "教练",
+    "sounds": "音源"
+  },
+  "summary": {
+    "title": "晨间小结",
+    "lastNight": "昨夜",
+    "sleepLatency": "入睡耗时",
+    "minutes": "分钟",
+    "lightWindow": "浅睡窗口",
+    "hit": "命中",
+    "missed": "活跃期被唤醒",
+    "moonAge": "月龄",
+    "watchMotion": "五更体动",
+    "noiseEvents": "噪音事件",
+    "environment": "温湿度与光照",
+    "temp": "温度",
+    "humidity": "湿度",
+    "lux": "光照",
+    "tonightTip": "今晚建议",
+    "noise": "噪音",
+    "motion": "体动",
+    "tapHint": "点触任一时辰查看该时段体动与环境",
+    "enterMoonrise": "进入月升锁境"
+  },
+  "script": {
+    "title": "入睡剧本",
+    "sleepTime": "入睡时间",
+    "sunsetDuration": "日落时长",
+    "alarmTime": "闹钟",
+    "sunriseLead": "日出提前量",
+    "moonPhaseCompanion": "月相伴眠",
+    "drumFifthWatch": "五更轻鼓",
+    "guide": "助眠引导",
+    "soundscape": "音景",
+    "breathLight": "呼吸光",
+    "meditation": "冥想语音",
+    "moon478": "月光呼吸 4-7-8",
+    "volume": "引导音量",
+    "fadeWithSunset": "随日落渐弱",
+    "save": "保存并下发",
+    "saving": "下发中…",
+    "saved": "已下发设备",
+    "rain": "雨声",
+    "waves": "海浪",
+    "forest": "森林",
+    "pinknoise": "粉红噪音",
+    "meditationSound": "冥想语音"
+  },
+  "coach": {
+    "title": "睡眠教练",
+    "subtitle": "已读取最近三晚小结",
+    "placeholder": "问问你的睡眠教练…",
+    "send": "发送",
+    "thinking": "推演中…",
+    "quick1": "昨晚睡得怎么样？",
+    "quick2": "今晚该怎么调整剧本？",
+    "quick3": "为什么会在三更醒来？",
+    "greeting": "我已看过你最近三晚的小结。想聊聊昨夜，还是今晚的安排？"
+  },
+  "sounds": {
+    "title": "音源库",
+    "builtin": "内置音源",
+    "custom": "自定义音源",
+    "upload": "上传音频",
+    "uploadHint": "支持 mp3 / ogg，≤ 10MB",
+    "play": "试听",
+    "stop": "停止",
+    "duration": "时长",
+    "uploading": "上传中…"
+  },
+  "pair": {
+    "title": "连接月晷",
+    "subtitle": "输入床头设备的地址，测试连接后引导配网与时区。",
+    "address": "设备地址",
+    "addressPlaceholder": "如 192.168.1.20 或 lunadial.local",
+    "test": "测试连接",
+    "testing": "连接中…",
+    "connected": "已连接",
+    "failed": "连接失败，请检查地址与网络",
+    "timezone": "时区",
+    "steps": "配网引导",
+    "step1": "确认设备已通电，底座灯环呼吸",
+    "step2": "手机与设备处于同一 Wi-Fi",
+    "step3": "输入地址并测试连接",
+    "enter": "进入月晷",
+    "reconnect": "重新连接"
+  },
+  "moonrise": {
+    "title": "月亮升起",
+    "currentZhi": "当前{{zhi}}时",
+    "untilSleep": "距入睡 {{min}} 分",
+    "breathStandby": "月光呼吸 4-7-8 待命",
+    "breatheIn": "吸气",
+    "hold": "屏息",
+    "breatheOut": "呼气",
+    "lock": "进入锁定视图",
+    "unlock": "退出锁定",
+    "back": "返回",
+    "locked": "已锁定 · 安睡吧"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "route": "pair",
+  "name": "配对",
+  "nav_type": "stack",
+  "parent": "",
+  "order_index": 4,
+  "icon": "link",
+  "summary": "设备配对与配网"
+}
